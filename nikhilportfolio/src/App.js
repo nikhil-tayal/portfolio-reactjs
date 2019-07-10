@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { PureComponent } from "react";
+import Navigation from "../src/components/navigationbar/index";
+import Header from "../src/components/Header/index";
+import Skill from '../src/components/Skills/index'
+export default class App extends PureComponent {
+  render() {
+    return (
+      <div>
+        <Navigation />
+        <div style={{margin: "100px auto" , width: "250px" }}>
+          <Header />
+        </div>
+        <div>
+            <Skill />
+        </div>
+      </div>
+    );
+  }
 }
-
-export default App;

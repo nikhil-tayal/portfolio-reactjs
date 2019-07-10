@@ -1,0 +1,11 @@
+h1{
+  font-family: 'Dosis', sans-serif;
+}
+img{
+  height: 550px;
+  width: 550px;
+}
+.typewriter{
+  text-align: center;
+  margin-top: 10%; 
+}

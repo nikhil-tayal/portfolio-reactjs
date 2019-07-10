@@ -1,0 +1,10 @@
+.bg {
+    background-color: #f2f3f4;
+}
+
+nav {
+    font-family: 'Roboto Mono', monospace;
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -6px #222;
+}
