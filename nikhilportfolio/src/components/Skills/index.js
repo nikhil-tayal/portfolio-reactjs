@@ -22,12 +22,12 @@ class Skill extends React.Component {
       <div>
         <div
           className="display-4"
-          style={{ margin: "0 auto", maxWidth: "200px" }}
+          style={{ margin: "0 auto", maxWidth: "200px"}}
         >
           <Bounce bottom>My Skills</Bounce>
         </div>
 
-        <div className="row" style={{ marginTop: "3%" }}>
+        <div className="row" style={{ marginTop: "7%" }}>
           <div
             className="col-sm-12 col-md-6 col-xl-6"
             style={{ textAlign: "center", borderRight: "2px black solid" }}
