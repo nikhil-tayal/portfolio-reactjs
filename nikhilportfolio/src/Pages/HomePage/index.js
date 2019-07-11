@@ -7,9 +7,7 @@ class HomePage extends React.Component {
   render() {
     return (
       <div>
-        <div style={{ margin: "100px auto", width: "250px" }}>
-        <Header />
-        </div>
+        <Header />        
         <Skill />
       </div>
     );
