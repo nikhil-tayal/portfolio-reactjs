@@ -12,7 +12,7 @@ class Skill extends React.Component {
     "I know how to play with Bootstrap ,HTML ,CSS."
   ];
   mobileSkills = [
-    "I love to Create Hybrid Mobile Apps for both Android and IOS accorfding to the requirement",
+    "I love to Create Hybrid Mobile Apps for both Android and IOS.",
     "Love to make Apps using React Native",
     "Good utilization of a unified color strategy & Quick loading and responsive",
     "Make Fully secure Apps for the clients",

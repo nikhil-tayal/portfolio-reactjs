@@ -31,15 +31,6 @@ export default class Navigation extends Component {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/about">About</Link>
                             </li>
-                            <li className="nav-item">
-                            <i className="fab fa-linkedin-in"></i>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">About Us</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">About Us</a>
-                            </li>
                         </ul>
                     </div>
                 </nav>
