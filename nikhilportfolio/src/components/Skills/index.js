@@ -5,10 +5,18 @@ import Bounce from "react-reveal/Bounce";
 import SkillGeneric from "./SkillGeneric/index";
 
 class Skill extends React.Component {
-    webSkills=[
-        "1","2","2"
-    ];
-    mobileSkills=[1,2,3,4]
+  webSkills = [
+    "I enjoy turning complex problems into simple, beautiful and intuitive designs.",
+    "I love to make fully responsive website which is mobile friendly.",
+    "I made websites on React Js and Angular Js.",
+    "I know how to play with Bootstrap ,HTML ,CSS."
+  ];
+  mobileSkills = [
+    "I love to Create Hybrid Mobile Apps for both Android and IOS accorfding to the requirement",
+    "Love to make Apps using React Native",
+    "Good utilization of a unified color strategy & Quick loading and responsive",
+    "Make Fully secure Apps for the clients",
+  ];
   render() {
     return (
       <div>
@@ -24,10 +32,16 @@ class Skill extends React.Component {
             className="col-sm-12 col-md-6 col-xl-6"
             style={{ textAlign: "center", borderRight: "2px black solid" }}
           >
-            <SkillGeneric heading="Web Development" skills={this.webSkills}/>
+            <SkillGeneric heading="Web Development" skills={this.webSkills} />
           </div>
-          <div className="col-md-6 col-sm-12 col-xl-6" style={{textAlign:"center"}}>
-            <SkillGeneric heading="Mobile Development" skills={this.mobileSkills} />
+          <div
+            className="col-md-6 col-sm-12 col-xl-6"
+            style={{ textAlign: "center" }}
+          >
+            <SkillGeneric
+              heading="Mobile Development"
+              skills={this.mobileSkills}
+            />
           </div>
         </div>
       </div>
