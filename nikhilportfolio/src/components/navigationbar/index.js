@@ -26,10 +26,10 @@ export default class Navigation extends Component {
                                 <Link className="nav-link" to="/projects">Projects</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="#">Blogs</Link>
+                                <Link className="nav-link" to="/blogs">Blogs</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="#">About</Link>
+                                <Link className="nav-link" to="/about">About</Link>
                             </li>
                             <li className="nav-item">
                             <i className="fab fa-linkedin-in"></i>
